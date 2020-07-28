@@ -1,0 +1,22 @@
+body {
+    width: 75%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    height: 2rem;
+    width: 14rem;
+
+}
+
+.photos {
+    --photos-min-size: 13rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--photos-min-size), 1fr));
+    grid-gap: 1rem;
+    margin-bottom: 50px;
+  }
