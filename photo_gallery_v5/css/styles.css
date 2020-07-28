@@ -14,9 +14,10 @@ input {
 }
 
 .photos {
-    --photos-min-size: 13rem;
+    --photos-min-size: 16rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(var(--photos-min-size), 1fr));
     grid-gap: 1rem;
+    margin-top: 30px;
     margin-bottom: 50px;
   }
